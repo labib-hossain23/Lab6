@@ -1,7 +1,7 @@
 
 def password_encoder(password):
     global encoded_password
-    encoded_password = ""
+    encoded_password = ''
     for digit in password:
         converted_number = str((int(digit) + 3) % 10)
         encoded_password += converted_number
